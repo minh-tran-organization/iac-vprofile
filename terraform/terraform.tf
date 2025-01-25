@@ -29,7 +29,7 @@ terraform {
   backend "s3" {
     bucket = "vprofileactions-minh-gitops-practice"
     key    = "terraform.tfstate"
-    region = "us-east-2"
+    region = "ap-southeast-1"
   }
 
   required_version = ">= 1.6.3, < 2.0.0"
